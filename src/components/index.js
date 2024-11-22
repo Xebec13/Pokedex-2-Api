@@ -1,9 +1,11 @@
 import Navbar from './Navbar/Navbar'
-import Pokemon from './Pokemon/Pokemon'
+import Pokedex from './Pokedex/Pokedex'
+import Pokelist from './Pokelist/Pokelist'
 
 
 
 export {
     Navbar,
-    Pokemon
+    Pokedex,
+    Pokelist,
 }

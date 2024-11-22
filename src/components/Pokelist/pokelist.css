@@ -1,0 +1,8 @@
+.pokelist-container {
+    border: 5px solid aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.329);
+  }

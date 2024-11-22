@@ -1,11 +1,12 @@
 import "./App.css";
-import { Navbar,Pokemon } from "./components";
+import { Navbar,Pokedex,Pokelist } from "./components";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Pokemon/>
+      <Pokedex/>
+      <Pokelist/>
     </>
   );
 }

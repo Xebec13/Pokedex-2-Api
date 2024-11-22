@@ -1,0 +1,56 @@
+.pokedex-container {
+  border: 5px solid aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0.329);
+}
+
+.search-input {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.search-input input {
+  width: 350px;
+  height: 50px;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  background-color: pink;
+}
+.search-input button {
+  width: 150px;
+  height: 50px;
+  border: none;
+}
+.pokemon-card {
+  border: 5px solid crimson;
+}
+
+.pokemon-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-image {
+  display: flex;
+  width: 30vw;
+  gap: 2rem;
+}
+.pokemon-image img {
+  width: 100%;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+.pokemon-types,
+.pokemon-abilities {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid rebeccapurple;
+}
